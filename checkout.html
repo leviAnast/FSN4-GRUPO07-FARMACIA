@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <title>Pharma &mdash; Colorlib Template</title>
+   <title>Pharma | Sua Farmácia Online</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -24,16 +24,13 @@
 
 <body>
 
-  <div class="site-wrap">
-
-
+ <div class="site-wrap">
     <div class="site-navbar py-2">
-
       <div class="search-wrap">
         <div class="container">
           <a href="#" class="search-close js-search-close"><span class="icon-close2"></span></a>
           <form action="#" method="post">
-            <input type="text" class="form-control" placeholder="Search keyword and hit enter...">
+            <input type="text" class="form-control" placeholder="Pesquisar produto...">
           </form>
         </div>
       </div>
@@ -48,29 +45,20 @@
           <div class="main-nav d-none d-lg-block">
             <nav class="site-navigation text-right text-md-center" role="navigation">
               <ul class="site-menu js-clone-nav d-none d-lg-block">
-                <li><a href="index.html">Home</a></li>
-                <li class="active"><a href="shop.html">Store</a></li>
-                <li class="has-children">
-                  <a href="#">Dropdown</a>
-                  <ul class="dropdown">
-                    <li><a href="#">Supplements</a></li>
-                    <li class="has-children">
-                      <a href="#">Vitamins</a>
-                      <ul class="dropdown">
-                        <li><a href="#">Supplements</a></li>
-                        <li><a href="#">Vitamins</a></li>
-                        <li><a href="#">Diet &amp; Nutrition</a></li>
-                        <li><a href="#">Tea &amp; Coffee</a></li>
-                      </ul>
-                    </li>
-                    <li><a href="#">Diet &amp; Nutrition</a></li>
-                    <li><a href="#">Tea &amp; Coffee</a></li>
-
-                  </ul>
-                </li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-              </ul>
+    <li><a href="index.html">Início</a></li>
+    <li><a href="shop.html">Loja</a></li>
+    <li class="has-children">
+        <a href="#">Categorias</a>  <!-- Texto principal do dropdown -->
+        <ul class="dropdown">
+            <li><a href="suplementos.html">Suplementos</a></li>
+            <li><a href="vitaminas.html">Vitaminas</a></li>
+            <li><a href="dieta-nutricao.html">Dieta & Nutrição</a></li>
+            <li><a href="chas-cafes.html">Chás & Cafés</a></li>
+        </ul>
+    </li>
+    <li><a href="about.html">Sobre</a></li>
+    <li><a href="contact.html">Contato</a></li>
+</ul>
             </nav>
           </div>
           <div class="icons">
@@ -79,19 +67,21 @@
               <span class="icon-shopping-bag"></span>
               <span class="number">2</span>
             </a>
-            <a href="#" class="site-menu-toggle js-menu-toggle ml-3 d-inline-block d-lg-none"><span
-                class="icon-menu"></span></a>
+            <a href="#" class="site-menu-toggle js-menu-toggle ml-3 d-inline-block d-lg-none">
+              <span class="icon-menu"></span>
+            </a>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="bg-light py-3">
+
+      <div class="bg-light py-3">
       <div class="container">
         <div class="row">
           <div class="col-md-12 mb-0">
-            <a href="index.html">Home</a> <span class="mx-2 mb-0">/</span>
-            <strong class="text-black">Checkout</strong>
+            <a href="index.html">Início</a> <span class="mx-2 mb-0">/</span>
+            <strong class="text-black">Finalização</strong>
           </div>
         </div>
       </div>
@@ -102,20 +92,20 @@
         <div class="row mb-5">
           <div class="col-md-12">
             <div class="bg-light rounded p-3">
-              <p class="mb-0">Returning customer? <a href="#" class="d-inline-block">Click here</a> to login</p>
+              <p class="mb-0">Já é cliente? <a href="#" class="d-inline-block">Clique aqui</a> para fazer login</p>
             </div>
           </div>
         </div>
         <div class="row">
           <div class="col-md-6 mb-5 mb-md-0">
-            <h2 class="h3 mb-3 text-black">Billing Details</h2>
+            <h2 class="h3 mb-3 text-black">Dados de Cobrança</h2>
             <div class="p-3 p-lg-5 border">
               <div class="form-group">
-                <label for="c_country" class="text-black">Country <span class="text-danger">*</span></label>
+                <label for="c_country" class="text-black">País <span class="text-danger">*</span></label>
                 <select id="c_country" class="form-control">
-                  <option value="1">Select a country</option>
-                  <option value="2">bangladesh</option>
-                  <option value="3">Algeria</option>
+                  <option value="1">Selecione um país</option>
+                  <option value="2">Brasil</option>
+                  <option value="3">Portugal</option>
                   <option value="4">Afghanistan</option>
                   <option value="5">Ghana</option>
                   <option value="6">Albania</option>
@@ -287,24 +277,42 @@
             </div>
           </div>
           <div class="col-md-6">
-    
             <div class="row mb-5">
               <div class="col-md-12">
-                <h2 class="h3 mb-3 text-black">Coupon Code</h2>
+                <h2 class="h3 mb-3 text-black">Seu Pedido</h2>
                 <div class="p-3 p-lg-5 border">
-    
-                  <label for="c_code" class="text-black mb-3">Enter your coupon code if you have one</label>
-                  <div class="input-group w-75">
-                    <input type="text" class="form-control" id="c_code" placeholder="Coupon Code" aria-label="Coupon Code"
-                      aria-describedby="button-addon2">
-                    <div class="input-group-append">
-                      <button class="btn btn-primary btn-sm px-4" type="button" id="button-addon2">Apply</button>
-                    </div>
+                  <table class="table site-block-order-table mb-5">
+                    <thead>
+                      <th>Produto</th>
+                      <th>Total</th>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Bioderma <strong class="mx-2">x</strong> 1</td>
+                        <td>R$55,00</td>
+                      </tr>
+                      <tr>
+                        <td class="text-black font-weight-bold"><strong>Subtotal</strong></td>
+                        <td class="text-black">R$350,00</td>
+                      </tr>
+                      <tr>
+                        <td class="text-black font-weight-bold"><strong>Total do Pedido</strong></td>
+                        <td class="text-black font-weight-bold"><strong>R$350,00</strong></td>
+                      </tr>
+                    </tbody>
+                  </table>
+
+                  <div class="form-group">
+                    <button class="btn btn-primary btn-lg btn-block" onclick="window.location='thankyou.html'">Confirmar Pedido</button>
                   </div>
-    
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     
             <div class="row mb-5">
               <div class="col-md-12">
@@ -417,53 +425,138 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6 col-lg-3 mb-4 mb-lg-0">
-
             <div class="block-7">
-              <h3 class="footer-heading mb-4">About Us</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius quae reiciendis distinctio voluptates
-                sed dolorum excepturi iure eaque, aut unde.</p>
+              <h3 class="footer-heading mb-4">Sobre Nós</h3>
+              <p>Somos uma farmácia online comprometida com sua saúde e bem-estar, oferecendo produtos de qualidade com os melhores preços.</p>
             </div>
-
           </div>
           <div class="col-lg-3 mx-auto mb-5 mb-lg-0">
-            <h3 class="footer-heading mb-4">Quick Links</h3>
+            <h3 class="footer-heading mb-4">Links Rápidos</h3>
             <ul class="list-unstyled">
-              <li><a href="#">Supplements</a></li>
-              <li><a href="#">Vitamins</a></li>
-              <li><a href="#">Diet &amp; Nutrition</a></li>
-              <li><a href="#">Tea &amp; Coffee</a></li>
+              <li><a href="#">Suplementos</a></li>
+              <li><a href="#">Vitaminas</a></li>
+              <li><a href="#">Dieta & Nutrição</a></li>
+              <li><a href="#">Chás & Cafés</a></li>
             </ul>
           </div>
-
           <div class="col-md-6 col-lg-3">
             <div class="block-5 mb-5">
-              <h3 class="footer-heading mb-4">Contact Info</h3>
+              <h3 class="footer-heading mb-4">Informações de Contato</h3>
               <ul class="list-unstyled">
-                <li class="address">203 Fake St. Mountain View, San Francisco, California, USA</li>
-                <li class="phone"><a href="tel://23923929210">+2 392 3929 210</a></li>
-                <li class="email">emailaddress@domain.com</li>
+                <li class="address">Av. Exemplo, 123, São Paulo, SP</li>
+                <li class="phone"><a href="tel://11999999999">(11) 99999-9999</a></li>
+                <li class="email">contato@pharma.com.br</li>
               </ul>
             </div>
-
-
           </div>
         </div>
         <div class="row pt-5 mt-5 text-center">
           <div class="col-md-12">
             <p>
-              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
               Copyright &copy;
-              <script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made
-              with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank"
+              <script>document.write(new Date().getFullYear());</script> Todos os direitos reservados | Este template foi feito
+              com <i class="icon-heart" aria-hidden="true"></i> por <a href="https://colorlib.com" target="_blank"
                 class="text-primary">Colorlib</a>
-              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
             </p>
           </div>
-
         </div>
       </div>
     </footer>
   </div>
+
+  <!-- Adicione este script antes do fechamento do body (antes dos scripts existentes) -->
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    // Verifica se veio de um produto específico
+    const urlParams = new URLSearchParams(window.location.search);
+    const productParam = urlParams.get('product');
+    const priceParam = urlParams.get('price');
+    const imgParam = urlParams.get('img');
+    const originalPriceParam = urlParams.get('original');
+
+    // Pega o carrinho do localStorage ou cria um novo
+    let cart = JSON.parse(localStorage.getItem('cart')) || [];
+    
+    // Se veio de um produto específico, adiciona ao carrinho
+    if (productParam && priceParam) {
+      const product = {
+        name: decodeURIComponent(productParam).replace(/-/g, ' '),
+        price: parseFloat(priceParam),
+        originalPrice: originalPriceParam ? parseFloat(originalPriceParam) : null,
+        image: imgParam || '',
+        quantity: 1
+      };
+      
+      // Verifica se o produto já está no carrinho
+      const existingProduct = cart.find(item => item.name === product.name);
+      if (existingProduct) {
+        existingProduct.quantity += 1;
+      } else {
+        cart.push(product);
+      }
+      
+      localStorage.setItem('cart', JSON.stringify(cart));
+    }
+
+    // Atualiza a tabela de pedidos
+    updateOrderTable(cart);
+    
+    // Atualiza o contador do carrinho no cabeçalho
+    updateCartCount(cart);
+
+    // Configura o botão de confirmar pedido
+    document.querySelector('.btn-block').addEventListener('click', function(e) {
+      e.preventDefault();
+      // Aqui você pode adicionar lógica para processar o pagamento
+      window.location.href = 'thankyou.html';
+    });
+  });
+
+  function updateOrderTable(cart) {
+    const orderTable = document.querySelector('.site-block-order-table tbody');
+    const subtotalElement = document.querySelector('.site-block-order-table .text-black');
+    const totalElement = document.querySelector('.site-block-order-table .text-black.font-weight-bold strong');
+    
+    // Limpa a tabela
+    orderTable.innerHTML = '';
+    
+    let subtotal = 0;
+    
+    // Adiciona cada item do carrinho
+    cart.forEach(item => {
+      const row = document.createElement('tr');
+      const itemTotal = item.price * item.quantity;
+      subtotal += itemTotal;
+      
+      row.innerHTML = `
+        <td>${item.name} <strong class="mx-2">x</strong> ${item.quantity}</td>
+        <td>R$${itemTotal.toFixed(2)}</td>
+      `;
+      orderTable.appendChild(row);
+    });
+    
+    // Atualiza subtotal e total
+    subtotalElement.textContent = `R$${subtotal.toFixed(2)}`;
+    totalElement.textContent = `R$${subtotal.toFixed(2)}`;
+  }
+
+  function updateCartCount(cart) {
+    const cartCount = document.querySelector('.bag .number');
+    if (cartCount) {
+      const totalItems = cart.reduce((total, item) => total + item.quantity, 0);
+      cartCount.textContent = totalItems;
+    }
+  }
+  cart.push({
+    product: nome,
+    price: preço,
+    quantity: quantidade,
+    image: 'caminho/da/imagem.webp'
+});
+cart.splice(index, 1); // Remove o item do array
+localStorage.setItem('cart', JSON.stringify(cart));
+  
+</script>
 
   <script src="js/jquery-3.3.1.min.js"></script>
   <script src="js/jquery-ui.js"></script>

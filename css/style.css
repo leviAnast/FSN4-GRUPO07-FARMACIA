@@ -114,16 +114,20 @@ a {
   border-top: 1px solid #edf0f5 !important; }
 
 .site-footer {
+  background-color: #0052b4;
   padding: 6em 0; }
+  .site-footer p {
+    color: #ffff;
+  }
   .site-footer ul li {
     margin-bottom: 10px; }
     .site-footer ul li a {
-      color: #5c626e; }
+      color: #ffff; }
       .site-footer ul li a:hover {
-        color:#0052b4; }
+        color:#ffff; }
   .site-footer .footer-heading {
     font-size: 1.2rem;
-    color: #000;
+    color: #fff;
     margin-bottom: 1rem; }
 
 /* Navbar */
@@ -657,7 +661,7 @@ a {
   padding-left: 30px;
   position: relative;
   margin-bottom: 15px;
-  color: #25262a; }
+  color: #ffff; }
   .block-5 ul li:before {
     top: 0;
     font-family: "icomoon";
@@ -666,7 +670,7 @@ a {
     left: 0;
     font-size: 20px;
     line-height: 1;
-    color:#0052b4; }
+    color:#ffff; }
   .block-5 ul li.address:before {
     content: "\e8b4"; }
   .block-5 ul li.email:before {

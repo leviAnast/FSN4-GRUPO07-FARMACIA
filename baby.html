@@ -13,6 +13,35 @@
   <link rel="stylesheet" href="css/owl.theme.default.min.css">
   <link rel="stylesheet" href="css/aos.css">
   <link rel="stylesheet" href="css/style.css">
+  <style>
+    .item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      height: 100%;
+      text-align: center;
+      padding: 10px;
+    }
+
+    .item img {
+      max-width: 200px;
+      height: 200px;
+      object-fit: contain;
+      margin-bottom: 10px;
+    }
+
+    .tag {
+      background-color: #f44336;
+      color: white;
+      padding: 3px 8px;
+      font-size: 12px;
+      border-radius: 3px;
+      position: relative;
+      top: -5px;
+      margin-bottom: 5px;
+    }
+  </style>
 </head>
 <body>
   <div class="site-wrap">
@@ -29,7 +58,7 @@
         <div class="d-flex align-items-center justify-content-between">
           <div class="logo">
             <div class="site-logo">
-             <a href="index.html" class="js-logo-clone d-flex align-items-center">
+              <a href="index.html" class="js-logo-clone d-flex align-items-center">
                   <img src="images/logo.jpeg" alt="Logo" style="height: 80px; margin-right: 10px; width: 110px;">
                    <span style="color: #e0181f;">FARMA</span><span style="color: #0052b4;">WEB</span>
                 </a>
@@ -41,13 +70,13 @@
                 <li><a href="index.html">Início</a></li>
                 <li class="has-children">
                   <a href="shop.html">Categorias</a>
-                     <ul class="dropdown">
-            <li><a href="suplementos.html">Suplementos</a></li>
-            <li><a href="vitaminas.html">Vitaminas</a></li>
-            <li><a href="dieta-nutricao.html">Dieta & Nutrição</a></li>
-            <li><a href="beleza.html">Cuidados e beleza</a></li>
-            <li><a href="baby.html">Cuidados para bebês</a></li>
-        </ul>
+                  <ul class="dropdown">
+                    <li><a href="suplementos.html">Suplementos</a></li>
+                    <li><a href="vitaminas.html">Vitaminas</a></li>
+                    <li><a href="dieta-nutricao.html">Dieta & Nutrição</a></li>
+                    <li><a href="beleza.html">Cuidados e beleza</a></li>
+                    <li><a href="baby.html">Cuidados para bebês</a></li>
+                  </ul>
                 </li>
                 <li><a href="#">Sobre</a></li>
                 <li><a href="#">Contato</a></li>
@@ -60,28 +89,59 @@
             <a href="checkout.html" class="icons-btn d-inline-block bag">
               <span class="icon-shopping-bag"></span>
               <span class="number">2</span>
-              
             </a>
             <a href="#" class="site-menu-toggle js-menu-toggle ml-3 d-inline-block d-lg-none"><span class="icon-menu"></span></a>
           </div>
         </div>
       </div>
     </div>
+
     <div class="bg-light py-3">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 mb-0">
-                        <a href="index.html">Início</a> <span class="mx-2 mb-0">/</span>
-                        <strong class="text-black">bebês</strong>
-                    </div>
-                </div>
-            </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 mb-0">
+            <a href="index.html">Início</a> <span class="mx-2 mb-0">/</span>
+            <strong class="text-black">Mamãe e Bebê</strong>
+          </div>
         </div>
+      </div>
+    </div>
 
     <div class="site-section">
       <div class="container">
-        <h1 class="text-center">.</h1>
-        <p class="text-center">.</p>
+        <div class="row justify-content-center">
+          <div class="col-sm-6 col-lg-4 item mb-4">
+            <a href="shop-single.html"><img src="images/fraldabebe.jpg" alt="Image"></a>
+            <h3 class="text-dark"><a href="shop-single.html">Huggies Fralda Supreme Care M 196 Un</a></h3>
+            <p class="price"><del>195.00</del> &mdash; R$155.00</p>
+          </div>
+          <div class="col-sm-6 col-lg-4 item mb-4">
+            <a href="shop-single.html"><img src="images/pomadabepantol.jpg" alt="Pomada bepantol"></a>
+            <h3 class="text-dark"><a href="shop-single.html">Bepantol Baby Pomada Assadura Bebe 120g Hipoalergênica</a></h3>
+            <p class="price">R$59.00</p>
+          </div>
+          <div class="col-sm-6 col-lg-4 item mb-4">
+            <a href="shop-single.html"><img src="images/xofebrecompresas.jpg" alt="Image"></a>
+            <h3 class="text-dark"><a href="shop-single.html">Likluc Xô Febre - compressas refrescantes para alivio da febre, Azul Oceano, Tamanho Único</a></h3>
+            <p class="price">R$50.00</p>
+          </div>
+          <div class="col-sm-6 col-lg-4 item mb-4">
+            <a href="shop-single.html"><img src="images/lençosume.jpg" alt="Image hidratante cetaphil"></a>
+            <h3 class="text-dark"><a href="shop-single.html">
+Bepantol Baby Kit Lenço Umedecido, Ideal para a Pele do Bebê, Fórmula Hidratante com Pró-Vitamina B5, Hipoalergênico, Sem Fragrância,</a></h3>
+            <p class="price"><del>R$100.00</del> &mdash; R$80.00</p>
+          </div>
+          <div class="col-sm-6 col-lg-4 item mb-4">
+            <a href="shop-single.html"><img src="images/saboneteliquidoJomh.jpg" alt="Image"></a>
+            <h3 class="text-dark"><a href="shop-single.html">Johnson's Baby Sabonete Líquido Glicerina da Cabeça aos Pés, 750ml</a></h3>
+            <p class="price">R$68.00</p>
+          </div>
+          <div class="col-sm-6 col-lg-4 item mb-4">
+            <a href="shop-single.html"><img src="images/61Bd8ykzRoL._AC_SL1500_.jpg" alt="Image"></a>
+            <h3 class="text-dark"><a href="shop-single.html">HIPOGLÓS® Creme Preventivo De Assaduras, 120g</a></h3>
+            <p class="price"><del>R$49</del> &mdash; R$38.00</p>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -91,9 +151,7 @@
   <script src="js/owl.carousel.min.js"></script>
   <script src="js/aos.js"></script>
   <script src="js/main.js"></script>
-
-
-  <footer class="site-footer">
+<footer class="site-footer">
       <div class="container">
         <div class="row">
           <div class="col-md-6 col-lg-3 mb-4 mb-lg-0">
@@ -135,5 +193,9 @@
         </div>
       </div>
     </footer>
+
+
+
+
 </body>
 </html>
